@@ -1,0 +1,9 @@
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social .fa{
+  margin: 15px;
+  
+}

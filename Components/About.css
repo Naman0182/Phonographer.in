@@ -1,0 +1,145 @@
+.home__hero-section {
+    color: #000;
+    position: relative;
+    top: -66px;
+    padding-bottom: 113px;
+  }
+  
+  .home__hero-row {
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__hero-text-wrapper {
+    width: 677px;
+    height: 275px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+    margin-left: -113px;
+}
+  
+
+  .heading{
+    text-align:left;
+    font-family: 'Josefin Sans',sans-serif;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 0.8;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .light{
+      color: #fff;
+  }
+  
+  .dark {
+    color: #000;
+    text-align: center;
+  }
+  
+  .dark_s{
+      color: #000;
+      opacity: 0.8;
+  }
+  .darkBg {
+    background-color: #141418;
+  }
+  .darkBg .btn{
+    display: none;
+  }
+  
+  .darkBg .home__hero-text-wrapper{
+    width: 632px;
+    height: 262px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+    margin-left: -20px;
+    margin-top: -240px;
+  }
+  .home__hero-subtitle {
+    text-align: justify;
+    font-family: 'DM Sans',sans-serif;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+   
+  }
+  
+  .home__hero-img-wrapper {
+   
+    max-width: 100%;
+  }
+  
+  .darkBg .home__hero-img-wrapper {
+   
+    max-width: 555px;
+  }
+  
+  .home__hero-img {
+    width: 259px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .darkBg .home__hero-img {
+    width: 483px;
+height: 671px;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 117px;
+  }
+
+  .color{
+      font-family: 'Josefin Sans',sans-serif;
+      color: blue;
+  }
+  
+  img {
+    border: 0;
+   
+  }
+  .home__hero-lower{
+      text-align: left;
+  }
+
+  .btn{
+      margin-left: 28px;
+  }
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__hero-text-wrapper {
+      padding-bottom: 65px;
+      text-align: justify;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
